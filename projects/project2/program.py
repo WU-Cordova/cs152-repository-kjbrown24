@@ -1,8 +1,12 @@
-
-
+#complete
+#program.py
+from projects.project2.Grid import Grid
+from projects.project2.Gamecontroller import Gamecontroller
 def main():
-    
-    print("Hello, World!")
+    grid = Grid(10,10)
+    game_control = Gamecontroller(grid)
+    game_control.run(100)
+    #pass
 
 
 
